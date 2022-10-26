@@ -85,3 +85,21 @@ function letSolution() {
 }
 console.log("LET solves the problem in VAR: ");
 letSolution()
+
+
+// const = constant variable. (MUST BE declared during initialization).
+// cannot be chagned or re-declared.
+const y = 50;
+console.log(y);
+// y =100; //Assignment error.
+
+// So, const object cannot be updated BUT its properties can be updated.
+const particle = {x: 100, y: 200}
+console.log(particle);
+particle.x = 50;
+particle.z = 100;
+console.log(particle);
+
+// we cannot do this (Assignment error)
+// particle = {x: 200, y: 50}
+
