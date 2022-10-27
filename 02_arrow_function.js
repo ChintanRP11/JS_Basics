@@ -78,7 +78,6 @@ function Person2() {
             // here this refers to its parent (Person2's object).
             console.log(this.age);
         }
-
         innerFunc();
     }
 }
