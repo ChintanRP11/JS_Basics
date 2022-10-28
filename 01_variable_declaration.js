@@ -72,7 +72,7 @@ console.log("Problem using VAR:");
 varProblem()
 
 // let solves this problem as it is block scope.
-// For second and first loop both i are totally different and independent from each other.
+// For second and first loop both i are completely different and independent from each other.
 function letSolution() {
     matrix = [[1,2,3], [4,5,6], [7,8,9]]
     for (let i = 0; i < matrix.length; i++) {
